@@ -61,7 +61,7 @@ if authentication_status:
         </div>
         """
         # Usar componentes para incrustar el iframe
-        components.html(powerbi_iframe, height=805)
+        components.html(powerbi_iframe, height=850)
 
     render_powerbi_dashboard()
 
